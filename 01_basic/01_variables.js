@@ -9,7 +9,7 @@ accountEmail="ashwani9120@gmail.com"
 accountPassword="2313213"
 accountCity="Bengaluru"
 
-console.log(accoundId);
+console.log(accountId);
 /*prefer not to use var
 because of issue in block scope and functional scope
 */

@@ -1,6 +1,7 @@
  "USE STRICT"; //treat all JScode as newer version
 //  alert(3+3) // we are using nodejs, not browser
-consloe.log(3+3); console.log("ashwani");
+console.log(3+3);
+console.log("ashwani");
 let name ="ashwani"
 let age =19
 let isloggedIn= false

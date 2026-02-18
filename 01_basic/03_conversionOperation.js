@@ -29,3 +29,20 @@ any other value like ashwani, ram ,2 etc=> true
  let stringNumber=String(somenumber)
  console.log(stringNumber);
  console.log(typeof stringNumber);
+
+//  ***********Operation***********************
+let value= 3
+let negValue= -value
+console.log(negValue);
+console.log(typeof negValue);
+console.log(3+3);
+console.log("3"+"3"); //string concatenation
+console.log("3"+3); //string concatenation
+console.log(3+"3"); //string concatenation
+console.log(3-3);
+console.log(3+3+"3"); //first 3+3=>6 then 6+"3"=> "63"
+console.log("3"+3+3); //first "3"+3=> "33" then "33"+3=> "333"
+
+console.log(+true);
+
+let num1=num2=num3=3
