@@ -50,3 +50,29 @@ console.log(typeof outsideTemp);
 // bigint                            "bigint"
 // function                          "function"
 // object (including array and null)  "object"  
+
+
+//************************* MEMORY************/
+// primitive data types are stored in stack memory
+// copy are assigned for primitive data types which are change in one variable does not affect the other variable or original variable
+
+// non primitive data types are stored in heap memory and reference of that memory is stored in stack memory
+// it refrences are assigned for non primitive data types which are change in one variable also affect the other variable or original variable because they are both pointing to the same memory location in heap memory
+
+//stack = primitive ,heap = non primitive
+let myinstaname = "ashwanik96"
+let anothername = myinstaname
+anothername = "ashwani"
+console.log(myinstaname); // ashwanik96
+console.log(anothername);// ashwani
+// in above code we have assigned the value of myinstaname to anothername but when we change the value of anothername it does not affect the value of myinstaname because they are stored in stack memory and copy are assigned for primitive data types
+
+let userOne={
+    userEmail:"ashwani@gmail.com",
+    upi:"ashwani@okaxis",
+}
+let userTwo = userOne
+userTwo.userEmail="ashwani2@gmail.com"
+console.log(userOne.userEmail); // ashwani@gmail.com
+console.log(userTwo.userEmail); // ashwani2@gmail.com
+// in above code we have assigned the reference of userOne to userTwo, so when we change the value of userTwo.userEmail it also changes the value of userOne.userEmail because they are both pointing to the same memory location in heap memory
