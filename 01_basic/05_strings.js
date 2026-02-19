@@ -38,4 +38,9 @@ console.log(gameName.charAt(3)); // d
 console.log(gameName.indexOf("g")); // 2
 console.log(gameName.slice(0,3)); // pub
 console.log(gameName.replace("pub","call of")); // call of g
+const url ="https://hitesh.com/hitesh%20choudhary"
+console.log(url.replace('%20','-'))
+console.log(url.includes('sunder'))
+console.log(gameName.split('-'))
+
 
