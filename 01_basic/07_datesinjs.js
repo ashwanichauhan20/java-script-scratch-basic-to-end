@@ -9,8 +9,8 @@
 
  let myCreatedDate =new Date(2023,0,23) // month is 0 based index so 0 means january and 1 means february and so on
  let myCratedDate = new Date(2023 ,0 ,23 ,5 ,3 ) // year , month , date , hours , minutes
- let myCreatedDate = new Date("2023-01-14") // it is a string format and it is in ISO format and it is the recommended format for creating a date object from a string because it is unambiguous and it is supported by all browsers and it is also the default format for the Date constructor when a string is passed as an argument.
- let myCreatedDate = new Date("01-14-2023") // it is an indian format and it is not recommended because it is ambiguous and it may not be supported by all browsers and it may give different results in different browsers because of the different date parsing algorithms used by different browsers.
+ let myCreatedDate2 = new Date("2023-01-14") // it is a string format and it is in ISO format and it is the recommended format for creating a date object from a string because it is unambiguous and it is supported by all browsers and it is also the default format for the Date constructor when a string is passed as an argument.
+ let myCreatedDate3 = new Date("01-14-2023") // it is an indian format and it is not recommended because it is ambiguous and it may not be supported by all browsers and it may give different results in different browsers because of the different date parsing algorithms used by different browsers.
  console.log(myCreatedDate.toLocaleString()); // it will give the date and time in local format
 
 
